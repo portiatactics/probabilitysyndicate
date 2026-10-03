@@ -50,13 +50,6 @@ a:focus-visible {
   letter-spacing: -0.02em;
 }
 
-.tagline {
-  margin: 0.75rem 0 0;
-  font-size: 0.875rem;
-  letter-spacing: 0.2em;
-  color: var(--muted);
-}
-
 /* Sections */
 
 .section {
@@ -100,6 +93,16 @@ a:focus-visible {
 .more a:hover,
 .more a:focus-visible {
   color: var(--text);
+}
+
+/* Video */
+
+.video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #000;
 }
 
 /* Bio */
