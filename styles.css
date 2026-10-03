@@ -111,3 +111,44 @@ a:focus-visible {
   margin: 0 0 1rem;
   font-size: 1.125rem;
 }
+
+/* Links */
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.125rem;
+}
+
+.link-list li + li {
+  margin-top: 0.5rem;
+}
+
+.link-list a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--muted);
+}
+
+.link-list a:hover,
+.link-list a:focus-visible {
+  border-bottom-color: var(--text);
+}
+
+/* Contact */
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: var(--text);
+  color: var(--bg);
+}
